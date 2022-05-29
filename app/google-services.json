@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "947875631695",
+    "project_id": "vivid-layout-349515",
+    "storage_bucket": "vivid-layout-349515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947875631695:android:6a08051bfd6d188e8f903a",
+        "android_client_info": {
+          "package_name": "com.example.animelib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947875631695-ju63gmmv2vthha76r4v23d5dkc7mqqqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhAepgs5rv8LzhWP3BkOJf7a2p8sFlQts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947875631695-ju63gmmv2vthha76r4v23d5dkc7mqqqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

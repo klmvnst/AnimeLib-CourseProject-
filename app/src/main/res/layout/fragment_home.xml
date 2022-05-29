@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical">
+
+<!--    <androidx.appcompat.widget.SearchView-->
+<!--        android:id="@+id/svSearch"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        style="@style/txt"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_gravity="end"/>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:src="@drawable/divider"-->
+<!--        android:contentDescription="@string/cd_search"/>-->
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_anime"
+                android:layout_margin="10dp"
+                style="@style/txt_header"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvMainCards"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ToggleButton
+                android:id="@+id/bShowMore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                style="@style/toggle_btn"
+                android:fontFamily="@font/ubuntu_italic"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textOff="@string/hide"
+                android:textOn="@string/show_more"
+                android:checked="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="80dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

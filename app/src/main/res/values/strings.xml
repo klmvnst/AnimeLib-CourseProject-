@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AnimeLib</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_main">Главная</string>
+    <string name="title_viewed">Просмотренное</string>
+    <string name="title_favourites">Избранное</string>
+    <string name="title_search">Поиск</string>
+    <string name="new_anime">Недавно вышедшие аниме</string>
+    <string name="cd_image">Image</string>
+    <string name="show_more">Показать еще</string>
+    <string name="cd_search">Search</string>
+    <string name="title_type">Тип: %1$s</string>
+    <string name="title_episode">Эпизоды: %1$s</string>
+    <string name="title_genre">Жанр: %1$s</string>
+    <string name="title_duration">Длительность: %1$s мин.</string>
+    <string name="title_date">Дата выпуска: %1$s</string>
+    <string name="title_description">Описание: %1$s</string>
+    <string name="title_trailer">Трейлер</string>
+    <string name="cd_play">Play</string>
+    <string name="cd_back">Back</string>
+    <string name="title_browse">Просмотр</string>
+    <string name="title_watch">Смотреть тут</string>
+    <string name="cd_divider">Divider</string>
+    <string name="cd_logo">Logo</string>
+    <string name="hide">Свернуть</string>
+    <string name="title_popular_anime">Популярное</string>
+</resources>
